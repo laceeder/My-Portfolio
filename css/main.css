@@ -114,7 +114,7 @@
     body .work-page-body {
         background-color: #f2d9e6;
         font-size: 1em;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         color: #2b2b2b;
         text-align: left;
     }
@@ -546,11 +546,12 @@
     .work a {
         color: #3a3a3a;
         text-transform: uppercase;
+        font-weight: 700;
     }
 
     .work article {
         width: 75%;
-        margin: 20px 0;
+        margin: 10px 0;
     }
 
     .work figure {
@@ -732,9 +733,6 @@
         .content-wrapper {
             max-width: 640px;
             margin: 0;
-            /*display: flex;
-            justify-content: space-around;
-            flex-flow: row wrap;*/
         }
 
         h2 {
@@ -951,8 +949,6 @@
         }
 
         .work .project-image {
-            /*width: 300px;
-            height: 270px;*/
             box-sizing: border-box;
         }
 
@@ -963,7 +959,7 @@
 
         .work .project-description {
             width: 85%;
-            font-size: 1.143em;
+            font-size: 1.125em;
         }
 
         /* Footer */
@@ -1060,7 +1056,6 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            /*padding: 20px 0 0 0;*/
         }
 
         .about-me h2 {
@@ -1133,6 +1128,7 @@
             font-size: 3.75em;
             width: 90%;
             padding: 240px 40px 20px;
+            text-align: left;
         }
 
         header.work-page-header .content-wrapper {
@@ -1146,10 +1142,14 @@
         }
 
         header.work-page-header nav ul li a {
-            font-weight: 700;
+            font-weight: 500;
         }
 
         /* Projects */
+
+        .work .projects {
+            margin: 15px 0;
+        }
 
         .work h3 {
             width: 90%;
@@ -1157,6 +1157,10 @@
 
         .work article {
             flex-basis: 33%;
+        }
+
+        .work .project-description {
+            font-size: 1.125em;
         }
 
         .work figure {
