@@ -278,7 +278,7 @@
    
    /* About me */
 
-   .about-me {
+   #about {
        background-color: #ebebeb;
        display: flex;
        justify-content: center;
@@ -286,7 +286,7 @@
        flex-flow: row wrap;
    }
 
-   .about-me h2 {
+   #about h2 {
        font-family: 'Lora', serif;
        font-size: 2.25em;
        font-weight: 700;
@@ -294,7 +294,7 @@
        padding: 30px 0;
    }
 
-   .about-me .bio {
+   #about .bio {
        font-family: 'Source Sans Pro', sans-serif;
        font-size: 1.375em;
        color: #7f7f7f;
@@ -302,16 +302,16 @@
 
    /* Skills */
    
-   .skills {
+   #skills {
        background-color: #d7c3ba;
        text-align: center;
    }
 
-   .skills .two-columns {
+   #skills .two-columns {
        padding: 30px 0;
     }
 
-   .skills h3 {
+    #skills h3 {
         font-family: 'Lora', serif;
         font-size: 2em;
         font-weight: 700;
@@ -321,7 +321,7 @@
         padding: 10px 0;
    }
 
-   .skills ul li {
+   #skills ul li {
         font-family: 'Lora', serif;
         font-size: 1.125em;
         font-weight: 400;
@@ -551,7 +551,7 @@
 
         /* About me */
 
-        .about-me h2 {
+        #about h2 {
             font-size: 2.625em;
             padding: 20px 0 0 0;
         }
@@ -568,7 +568,7 @@
         
         /* Skills */
 
-        .skills .two-columns {
+        #skills .two-columns {
             width: 100%;
             display: grid;
             grid-auto-flow: column;
@@ -576,15 +576,15 @@
             padding: 10px 0;
         }
 
-        .skills h3 {
+        #skills h3 {
             font-size: 2em;
         }
 
-        .skills ul li {
+        #skills ul li {
             font-size: 1.5em;
         }
 
-        .skills h3, .skills .skills-wrapper, .skills .tools-wrapper {
+        #skills h3, #skills .skills-wrapper, #skills .tools-wrapper {
             margin: 10px 0 20px 0;
         }
 
@@ -630,7 +630,7 @@
             font-size: 1.875em;
         }
 
-        .about-me .bio p {
+        #about .bio p {
             font-size: 1em;
             line-height: 1.333;
         }
@@ -677,25 +677,25 @@
 
         /* About me */
 
-        .about-me .bio {
+        #about .bio {
             display: flex;
             justify-content: space-between;
             align-items: center;
             /*padding: 20px 0 0 0;*/
         }
 
-        .about-me h2 {
+        #about h2 {
             font-size: 2.375em;
         }
 
-        .about-me .bio p {
+        #about .bio p {
             width: 45%;
             font-size: 1.125em;
         }
 
         /* Skills */
 
-        .skills .two-columns {
+        #skills .two-columns {
             width: 100%;
             text-align: center;
             justify-content: center;
